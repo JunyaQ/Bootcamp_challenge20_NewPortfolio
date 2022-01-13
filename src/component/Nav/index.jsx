@@ -1,19 +1,21 @@
 import React from "react";
-function Nav(){
-  const onClickHandler = () => {
-    console.log("click handled")
-  }
+function Nav(props){
+ 
+const navbar = ["About","Portfolio","Contact","Resume","Main"];
     return (
 <section className="nav-bar">
 <ul>
-  <li className="nav-item"><a href="#about" onClick={() =>onClickHandler()}>About Me</a></li>
-  <li className="nav-item"><a href="#portfolio" onClick={() =>onClickHandler()}>Portfolio</a></li>
-  <li className="nav-item"><a href="#contact" onClick={() =>onClickHandler()}>Contact</a></li>
-  <li className="nav-item"><a href="#resume" onClick={() =>onClickHandler()}>Resume</a></li> 
-  <li className="nav-right"><a class="active" href="#main">Main</a></li>
+  {navbar.map(item=>(
+    <li className="nav-item" key={item}>
+      <a href={"#"+item}
+      onClick={()=> props.handlePageChange(item)}
+      className={props.currentPage === item ? 'nav-link active' : 'nav-link'}>
+        {item}
+      </a>
+    </li>
+  ))}
 </ul>
 </section>
-    )
+ )
 }
-
 export default Nav;
