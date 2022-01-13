@@ -11,3 +11,52 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+:root{
+  --title-color:#05668d;
+  --background-color:#f0f3bd;
+  --border-color: #02c39a;
+  --middle-color: #00a896;
+  --paragraph-color:#028090;
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  font-size: 28px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: var(--border-color);
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: var(--background-color);
+  color: var(--title-color);
+}
+
+.active {
+  background-color: white;
+  color: var(--title-color);
+}
