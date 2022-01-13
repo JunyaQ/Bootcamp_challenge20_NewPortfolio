@@ -1,6 +1,7 @@
 import React from "react";
 import person from "../../assets/person.JPG"
 function Main(){
+    
     return(
         <section>
 
