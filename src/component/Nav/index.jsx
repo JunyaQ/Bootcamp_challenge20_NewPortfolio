@@ -10,6 +10,7 @@ function Nav(){
   <li className="nav-item"><a href="#portfolio" onClick={() =>onClickHandler()}>Portfolio</a></li>
   <li className="nav-item"><a href="#contact" onClick={() =>onClickHandler()}>Contact</a></li>
   <li className="nav-item"><a href="#resume" onClick={() =>onClickHandler()}>Resume</a></li> 
+  <li className="nav-right"><a class="active" href="#main">Main</a></li>
 </ul>
 </section>
     )
