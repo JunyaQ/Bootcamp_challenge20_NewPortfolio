@@ -33,42 +33,42 @@ return (
     <h1 className="mySkills">My Skills</h1>
     <div className="skillBar">
     <h5 className="item">HTML</h5> 
-    <ProgressBar value={76} className="item bar"></ProgressBar>
+    <ProgressBar bgcolor='#fe938c' completed='76' className="bar" ></ProgressBar>
     </div>
 
     <div className="skillBar">
     <h5 className="item">CSS</h5>
-    <ProgressBar value={76} className="item bar"></ProgressBar>
+    <ProgressBar bgcolor='#fe938c' completed='76'className="item bar" ></ProgressBar>
     </div>
 
     <div className="skillBar">
     <h5 className="item">Javascript</h5>
-    <ProgressBar value={76} className="item bar"></ProgressBar>
+    <ProgressBar bgcolor='#fe938c' completed='76'className="item bar" ></ProgressBar>
     </div>
 
     <div className="skillBar">
     <h5 className="item">Node</h5>
-    <ProgressBar value={76} className="item bar"></ProgressBar>
+    <ProgressBar bgcolor='#fe938c' completed='76'className="item bar" ></ProgressBar>
     </div>
 
     <div className="skillBar">
     <h5 className="item">MySQL</h5>
-    <ProgressBar value={76} className="item bar"></ProgressBar>
+    <ProgressBar bgcolor='#fe938c' completed='76'className="item bar" ></ProgressBar>
     </div>
 
     <div className="skillBar">
     <h5 className="item">MongoDB</h5>
-    <ProgressBar value={76} className="item bar"></ProgressBar>
+    <ProgressBar bgcolor='#fe938c' completed='76'className="item bar" ></ProgressBar>
     </div>
 
     <div className="skillBar">
     <h5 className="item">React</h5>
-    <ProgressBar value={76} className="item bar"></ProgressBar>
+    <ProgressBar bgcolor='#fe938c' completed='76'className="item bar" ></ProgressBar>
     </div>
 
     <div className="skillBar">
     <h5 className="item">Java</h5>
-    <ProgressBar value={76} className="item bar"></ProgressBar>
+    <ProgressBar bgcolor='#fe938c' completed='76'className="item bar" ></ProgressBar>
     </div>
    
 </div>

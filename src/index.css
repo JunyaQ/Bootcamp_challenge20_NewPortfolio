@@ -51,11 +51,15 @@ body {
 }
 .skillBar{
   display: flex;
+  flex-direction: row;
+  
 }
 .item{
-  flex: 10%;
-  margin-top: 0;
+  flex: 45%;
+  margin-top: 47px;
+  padding-right: 20px;
 }
+
 
 /*nav*/
 .nav-right{
