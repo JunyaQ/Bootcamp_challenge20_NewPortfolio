@@ -1,7 +1,7 @@
 import React from "react";
 function Nav(props){
  
-const navbar = ["About","Portfolio","Contact","Resume","Main"];
+const navbar = ["Main","About","Portfolio","Contact","Resume"];
     return (
 <section className="nav-bar">
 <ul>
