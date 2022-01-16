@@ -133,4 +133,14 @@ li a:hover {
   right:10%;
  
 }
+/*project list*/
+.project_name{
+  color: #4281a4;
+}
+.link{
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+}
 

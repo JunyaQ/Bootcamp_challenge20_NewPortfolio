@@ -29,9 +29,9 @@ function ProjectList(){
          
       {ProjectList.map((project) => (
         <div>
-        <p className="project_name">{project.project_name}</p>
+        <h4 className="project_name">{project.project_name}</h4>
         <p className="project_description">{project.description}</p>
-        <a href={project.webpage}><p>view the Project</p></a>
+        <p ><a href={project.webpage} className='link'>view the Project</a></p>
         <img src={require(`../../assets/projects/projectimage.png`)}></img>
         </div>
 
