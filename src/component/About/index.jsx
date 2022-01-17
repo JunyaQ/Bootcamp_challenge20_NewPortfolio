@@ -54,6 +54,11 @@ return (
     </div>
 
     <div className="skillBar">
+    <h5 className="item">JQuery</h5>
+    <ProgressBar bgcolor='#fe938c' completed='76'className="item bar" ></ProgressBar>
+    </div>
+
+    <div className="skillBar">
     <h5 className="item">Java</h5>
     <ProgressBar bgcolor='#fe938c' completed='76'className="item bar" ></ProgressBar>
     </div>
@@ -63,9 +68,7 @@ return (
 
 <div className="col">
 <h1 className="aboutTitle">About Myslef</h1>
-<p>Hi,I am Junya Qiao, Something about myself and i don't know what to say now but should be something here. 
-    hahahahhahaha here is already something here and that's enough. i will fix them later, later , later </p>
-
+<p>Hi,I am Junya Qiao, Innovative optimized solution seeker. Excited to be at the development phase of my new career as a web developer.</p>
 
 <a href='https://www.facebook.com/junya.qiao.9'><img src={fb} alt="facebook icon" className="icon"></img></a>
 <a href='https://www.linkedin.com/in/junya-q-219798193/'><img src={linkedin} alt="linkedin icon" className="icon"></img></a> 

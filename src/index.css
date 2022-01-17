@@ -62,13 +62,9 @@ body {
 
 
 /*nav*/
-.nav-right{
-  float: right;
-  margin-right: 5px;
- 
-}
 
-ul {
+
+.barul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -80,13 +76,13 @@ ul {
   
 }
 
-li {
+.barli {
   float: left;
   margin-bottom: 5px;
   margin-top: 5px;
 }
 
-li a {
+.barli a {
   display: block;
   color: white;
   text-align: center;
@@ -94,14 +90,10 @@ li a {
   text-decoration: none;
 }
 
-li a:hover {
+.barli a:hover {
   color: var(--main-color3);
 }
 
-.active {
-  background-color: white;
-  color: var(--main-color1);
-}
 
 /*main*/
 .main-color1{
@@ -141,6 +133,7 @@ li a:hover {
   color: white;
   padding: 14px 16px;
   text-decoration: none;
+  text-align: center;
 }
 
 .project_img{
@@ -193,6 +186,9 @@ li a:hover {
     width: 100%;
   }
 }
+.link:hover{
+color: var(--main-color1);
+}
 
 /*footer*/
 .footer{
@@ -244,4 +240,14 @@ textarea {
 	height: 120px;
 	border: 3px solid #cccccc;
 	padding: 5px;
+}
+
+/*resume*/
+.downloadlink{
+  text-decoration: none;
+  text-align: center;
+  color: white;
+}
+.resume{
+  padding: 50px;
 }
