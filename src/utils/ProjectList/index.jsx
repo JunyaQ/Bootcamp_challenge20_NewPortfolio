@@ -32,7 +32,7 @@ function ProjectList(){
         <h4 className="project_name">{project.project_name}</h4>
         <p className="project_description">{project.description}</p>
         <p ><a href={project.webpage} className='link'>view the Project</a></p>
-        <img src={require(`../../assets/projects/projectimage.png`)}></img>
+        <img src={require(`../../assets/projects/projectimage.png`)}className='project_img'></img>
         </div>
 
        

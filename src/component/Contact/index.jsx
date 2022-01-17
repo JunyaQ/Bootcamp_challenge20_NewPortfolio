@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Footer from '../Footer';
 
 function Contact(){
     const [formState, setFormState] = useState({ name: '', email: '', message: '' });
@@ -36,6 +37,10 @@ function Contact(){
         )}
         <button data-testid="button" type="submit">Submit</button>
       </form>
+      
+      <footer className="footer">
+      <Footer></Footer>
+      </footer>
     </section>
     )
 }

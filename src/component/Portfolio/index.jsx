@@ -1,5 +1,6 @@
 //import react from "react";
 import ProjectList from "../../utils/ProjectList"
+import Footer from "../Footer";
 //import projectimage from '../../assets/projects/projectimage.png'
 
 function Portfolio(){
@@ -8,6 +9,9 @@ function Portfolio(){
       <section>
        
         <ProjectList/>
+        <footer className="footer">
+        <Footer></Footer>
+        </footer>
       </section>
     );
   }
