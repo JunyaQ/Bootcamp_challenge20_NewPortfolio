@@ -41,23 +41,23 @@ function ProjectList(){
         const [ProjectList, setList] = React.useState(project);
       return(
       <div>
-         
+         <div class="row">
       {ProjectList.map((project,i) => (
-        <div className='project'>
-        <h4 className="project_name">{project.project_name}</h4>
-        <div className='projectchild'>
-        <p className="project_description">{project.description}</p>
-        </div>
-        <div className='projectchild'>
-        <img src={require(`../../assets/projects/${i}.jpg`)}className='project_img'></img>
-        <p ><a href={project.webpage} className='link'>view the Project</a></p>
-        </div>
-        </div>
+        
+<div class="column">
+  <div class="content">
+  <img src={require(`../../assets/projects/${i}.jpg`)}className='project_img'></img>
+  <h4 className="project_name">{project.project_name}</h4>
+    <p className="project_description">{project.description}</p>
+    <p ><a href={project.webpage} className='link'>view the Project</a></p>
+  </div>
+</div>
 
        
         
       ))
       }
+      </div>
 
       </div>
   );

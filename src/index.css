@@ -142,23 +142,56 @@ li a:hover {
   padding: 14px 16px;
   text-decoration: none;
 }
-.project{
-  display: flex;
-  border: 3px solid #fff;
-  padding: 20px;
-}
-.project_description{
 
-
-}
 .project_img{
-  width: 400px;
+  width: 250px;
   height: auto;
 }
-.projectchild{
-  width: 50%;
+
+.row {
+ 
+  max-width: 1000px;
+  margin: auto;
+}
+
+.row,
+.row > .column {
+  margin-top: 10px;
+  padding: 10px;
+}
+
+
+.column {
   float: left;
-  padding: 20px;
+  width: 30%;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.content {
+  background-color: gray;
+  padding: 10px;
+}
+
+
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
 }
 
 /*footer*/
@@ -206,10 +239,6 @@ input {
   transition: box-shadow 0.2s;
 }
 
-input:focus {
-  border: 1px solid var(--secondary);
-  box-shadow: 0 0 .25rem rgba(0, 0, 0, .5);
-}
 textarea {
 	width: 600px;
 	height: 120px;
