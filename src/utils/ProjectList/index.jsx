@@ -4,35 +4,54 @@ import React, { useState } from 'react';
 function ProjectList(){
     const [project] =useState([
         {
-          project_name: 'Photo Gallary',
+          project_name: 'Weather Dashboard',
           description:
-            'This is a web show photo something description of the porject something description of the porject something description of the porject something description of',
-          webpage: 'https://github.com/JunyaQ/photoGallery',
+            'This is a website that can showing the current weather as well as 5 days prediction based on the name of the city you searched for. It also store the history of search on the left side.',
+          webpage: 'https://github.com/JunyaQ/bootcamp-challenge-weatherAPI',
         },
         {
-          project_name: 'project2',
+          project_name: 'Offline Bank tracker',
           description: 
-          'here is some project 222222 description something something',
-          webpage: 'https://github.com/JunyaQ/photoGallery',
+          'This application can store the deposit transaction and spend/withdraw transaction. This application can use for both with or without internet connect. When the internet is offline, the application will use IndexDB, Service workers, and Web Manifest for offline and will upload all information to the page when internet back to connection.This application is created with using MongoDB, therefore, no database setup needed.',
+          webpage: 'https://github.com/JunyaQ/Bootcamp_challenge19_BankTracker',
         },
         {
-          project_name: 'project3',
+          project_name: 'Go Game Go',
           description: 
-          'here is some project 333333 description something something',
-          webpage: 'https://github.com/JunyaQ/photoGallery',
+          'This is a game collection application. User can check the game and look at the reivew of the game, also can add own review of the game',
+          webpage: 'https://github.com/JunyaQ/GoGamesGo',
+        },
+        {project_name: "Team Profile Generator",
+        description:"This application is to organize the manager, workers and internship member for the project",
+        webpage:"https://github.com/JunyaQ/Bootcamp_challenge-10_TeamProfileGenerator"
+        },
+        {
+          project_name:"Quiz",
+          description:"This application is a oneline quiz application. It has a timer and user has a min to complete the test. If the answer is wrong, it will deduct 10 seconds from the timer. When the timer is 0 or finish all the test, you can see your score and enter your name to save the result.",
+          webpage:"https://github.com/JunyaQ/bootcamp-challenge-04"
+        },
+        {
+          project_name:"Train to the Beat",
+          description:"Train to the Beat is a music search tool that allows tracks to be filtered by tempo and then by genre to create playlists that are tailored to a user’s specific training. It also can show the weather and street based on the location",
+          webpage: "https://github.com/JunyaQ/activity-music"
         }
+
     ])
         //project.map((image,i)
         const [ProjectList, setList] = React.useState(project);
       return(
       <div>
          
-      {ProjectList.map((project) => (
-        <div>
+      {ProjectList.map((project,i) => (
+        <div className='project'>
         <h4 className="project_name">{project.project_name}</h4>
+        <div className='projectchild'>
         <p className="project_description">{project.description}</p>
+        </div>
+        <div className='projectchild'>
+        <img src={require(`../../assets/projects/${i}.jpg`)}className='project_img'></img>
         <p ><a href={project.webpage} className='link'>view the Project</a></p>
-        <img src={require(`../../assets/projects/projectimage.png`)}className='project_img'></img>
+        </div>
         </div>
 
        

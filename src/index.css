@@ -134,12 +134,31 @@ li a:hover {
 /*project list*/
 .project_name{
   color: #4281a4;
+  text-align: center;
 }
 .link{
   display: block;
   color: white;
   padding: 14px 16px;
   text-decoration: none;
+}
+.project{
+  display: flex;
+  border: 3px solid #fff;
+  padding: 20px;
+}
+.project_description{
+
+
+}
+.project_img{
+  width: 400px;
+  height: auto;
+}
+.projectchild{
+  width: 50%;
+  float: left;
+  padding: 20px;
 }
 
 /*footer*/
@@ -153,4 +172,47 @@ li a:hover {
   left: 0;
   width: 100%;
   text-align: center
+}
+button {
+  background-color: #e6b89c;	
+	border: 0;
+	border-radius: 5px;
+	color: #fff;
+	cursor: pointer;
+	font-size: 16px;
+	font-weight: 600;
+	margin-bottom: 30px;
+	padding: 10px 15px;	
+}
+.contactme{
+  color: #e6b89c;
+  font-size: 30px;
+  text-align: center;
+}
+form{
+  color: #e6b89c;
+  width: 90%;
+  line-height: 3.0;
+  font-size: 20px;
+  text-align: center;
+
+}
+input {
+  font-size: 1rem;
+  padding: 5px;
+  border: 1px solid var(--dark);
+  outline: none;
+  border-radius: 3px;
+  transition: box-shadow 0.2s;
+}
+
+input:focus {
+  border: 1px solid var(--secondary);
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, .5);
+}
+textarea {
+	width: 600px;
+	height: 120px;
+	border: 3px solid #cccccc;
+	padding: 5px;
 }

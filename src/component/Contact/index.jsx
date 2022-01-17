@@ -16,9 +16,9 @@ function Contact(){
  
     return(
 <section>
-      <h1 data-testid="h1tag">Contact me</h1>
+      <h1 className='contactme'>Contact me</h1>
       <form id="contact-form" onSubmit={handleSubmit}>
-        <div>
+        <div> 
           <label htmlFor="name">Name:</label>
           <input type="text" name="name" defaultValue={name} />
         </div>
