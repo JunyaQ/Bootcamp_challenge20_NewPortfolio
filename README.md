@@ -18,6 +18,9 @@ Contact page is a contact form, can send me message if you have any questions
 ## Resume
 Resume page is my resume and you can download the resume from the page
 
+## Deployed page:
+https://junyaq.github.io/Bootcamp_challenge20_NewPortfolio/#Main
+
 
 
 
