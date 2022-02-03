@@ -42,7 +42,6 @@ function ProjectList(){
           webpage:'https://github.com/JunyaQ/coffee',
           deployed:'https://starwarcoffee.herokuapp.com/'
         }
-
     ])
         //project.map((image,i)
         const [ProjectList, setList] = React.useState(project);
