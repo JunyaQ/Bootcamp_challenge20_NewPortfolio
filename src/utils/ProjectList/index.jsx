@@ -35,6 +35,12 @@ function ProjectList(){
           description:"Train to the Beat is a music search tool that allows tracks to be filtered by tempo and then by genre to create playlists that are tailored to a user’s specific training. It also can show the weather and street based on the location",
           webpage: "https://github.com/JunyaQ/activity-music",
           deployed:"https://ScalexanderB.github.io/activity-music/"
+        },
+        {
+          project_name:"StarWars Coffee",
+          description: "It is a webpage for both customer and owner. The customer can view the menu and the shop owner can login and add item to the menu",
+          webpage:'https://github.com/JunyaQ/coffee',
+          deployed:'https://starwarcoffee.herokuapp.com/'
         }
 
     ])
