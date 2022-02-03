@@ -1,11 +1,12 @@
 {
   "files": {
     "main.css": "/Bootcamp_challenge20_NewPortfolio/static/css/main.7d35a382.css",
-    "main.js": "/Bootcamp_challenge20_NewPortfolio/static/js/main.b2b81a38.js",
+    "main.js": "/Bootcamp_challenge20_NewPortfolio/static/js/main.d1d0b568.js",
     "static/js/787.86e70ff7.chunk.js": "/Bootcamp_challenge20_NewPortfolio/static/js/787.86e70ff7.chunk.js",
     "static/media/4.jpg": "/Bootcamp_challenge20_NewPortfolio/static/media/4.8ea9e148cd104fc79387.jpg",
     "static/media/person.JPG": "/Bootcamp_challenge20_NewPortfolio/static/media/person.b7a302d7e5920892ba4c.JPG",
     "static/media/2.jpg": "/Bootcamp_challenge20_NewPortfolio/static/media/2.5ff07d7ec58c76a81e72.jpg",
+    "static/media/5.jpg": "/Bootcamp_challenge20_NewPortfolio/static/media/5.da95797f11283e1b5860.jpg",
     "static/media/0.jpg": "/Bootcamp_challenge20_NewPortfolio/static/media/0.3b816f70b2962ef25e76.jpg",
     "static/media/1.jpg": "/Bootcamp_challenge20_NewPortfolio/static/media/1.4b30be718dd4de2f2ce4.jpg",
     "static/media/3.jpg": "/Bootcamp_challenge20_NewPortfolio/static/media/3.8d9fe4a1e2970875eabe.jpg",
@@ -15,11 +16,11 @@
     "static/media/fb.JPG": "/Bootcamp_challenge20_NewPortfolio/static/media/fb.d29daac2b7456aea98d5.JPG",
     "index.html": "/Bootcamp_challenge20_NewPortfolio/index.html",
     "main.7d35a382.css.map": "/Bootcamp_challenge20_NewPortfolio/static/css/main.7d35a382.css.map",
-    "main.b2b81a38.js.map": "/Bootcamp_challenge20_NewPortfolio/static/js/main.b2b81a38.js.map",
+    "main.d1d0b568.js.map": "/Bootcamp_challenge20_NewPortfolio/static/js/main.d1d0b568.js.map",
     "787.86e70ff7.chunk.js.map": "/Bootcamp_challenge20_NewPortfolio/static/js/787.86e70ff7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7d35a382.css",
-    "static/js/main.b2b81a38.js"
+    "static/js/main.d1d0b568.js"
   ]
 }
